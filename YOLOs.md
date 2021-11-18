@@ -59,14 +59,14 @@
 #### Related work
 > detector = backbone + Neck + head
 
-    backbone: 在Imagenet上预训练
-        GPU: VGG,Resnet,ResnetXt,DenseNet
-        CPU: SqueezeNet,MobileNet,ShuffleNet
-    head: 预测目标类别和bbox位置
-        two-stage: fast RCNN,faster RCNN,R-FCN,Libra RCNN,RepPoints(anchor-free)
-        one-stage: YOLO,SSD,RetinaNet,CenterNet(anchor-free),CornerNet(anchor-free),FCOS(anchor-free)
-    Neck: 位于backbone和head之间，收集不同阶段特征图，自顶向下或者自底向上
-        Path-aggregation blocks: FPN,PAN,BiFPN,NAS-FPN
-        Additional blocks: SPP,ASPP,RFB,SAM
+> backbone: 在Imagenet上预训练
+    GPU: VGG,Resnet,ResnetXt,DenseNet
+    CPU: SqueezeNet,MobileNet,ShuffleNet
+> head: 预测目标类别和bbox位置
+    two-stage: fast RCNN,faster RCNN,R-FCN,Libra RCNN,RepPoints(anchor-free)
+    one-stage: YOLO,SSD,RetinaNet,CenterNet(anchor-free),CornerNet(anchor-free),FCOS(anchor-free)
+> Neck: 位于backbone和head之间，收集不同阶段特征图，自顶向下或者自底向上
+    Path-aggregation blocks: FPN,PAN,BiFPN,NAS-FPN
+    Additional blocks: SPP,ASPP,RFB,SAM
         
        
