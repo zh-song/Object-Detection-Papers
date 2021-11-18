@@ -75,7 +75,7 @@
     
 ##### Bag of freebies
  
-> data augmentation
+###### Data augmentation
 
     1) 光学变换；调整亮度，对比度，噪声等
     2）几何变换：随机尺寸变换，剪切，翻转，旋转等
