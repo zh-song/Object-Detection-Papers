@@ -53,19 +53,19 @@
 
 ![image](https://user-images.githubusercontent.com/67272893/142413859-71998620-697a-4747-885d-dfd8e1d0d3f5.png)
 
-##### Introduction:
-1）WRC(加权残差连接)：缓解梯度消失，稳定模型训练，加快模型收敛
+##### Introduction
+    1）WRC(加权残差连接)：缓解梯度消失，稳定模型训练，加快模型收敛
 
-##### Related work:
-detector：backbone + Neck + head
-backbone: 在Imagenet上预训练
-    GPU: VGG,Resnet,ResnetXt,DenseNet
-    CPU: SqueezeNet,MobileNet,ShuffleNet
-head: 预测目标类别和bbox位置
-    two-stage: fast RCNN,faster RCNN,R-FCN,Libra RCNN,RepPoints(anchor-free)
-    one-stage: YOLO,SSD,RetinaNet,CenterNet(anchor-free),CornerNet(anchor-free),FCOS(anchor-free)
-Neck: 位于backbone和head之间，收集不同阶段特征图，自顶向下或者自底向上
-    Path-aggregation blocks: FPN,PAN,BiFPN,NAS-FPN
-    Additional blocks: SPP,ASPP,RFB,SAM
+##### Related work
+    detector = backbone + Neck + head
+    backbone: 在Imagenet上预训练
+        GPU: VGG,Resnet,ResnetXt,DenseNet
+        CPU: SqueezeNet,MobileNet,ShuffleNet
+    head: 预测目标类别和bbox位置
+        two-stage: fast RCNN,faster RCNN,R-FCN,Libra RCNN,RepPoints(anchor-free)
+        one-stage: YOLO,SSD,RetinaNet,CenterNet(anchor-free),CornerNet(anchor-free),FCOS(anchor-free)
+    Neck: 位于backbone和head之间，收集不同阶段特征图，自顶向下或者自底向上
+        Path-aggregation blocks: FPN,PAN,BiFPN,NAS-FPN
+        Additional blocks: SPP,ASPP,RFB,SAM
         
        
