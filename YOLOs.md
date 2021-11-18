@@ -1,4 +1,4 @@
-#### **YOLO v1**
+### **YOLO v1**
 
 ![yolo](https://pic4.zhimg.com/v2-aad10d0978fe7bc62704a767eabd0b54_b.jpg)
 
@@ -14,7 +14,7 @@
     
     
     
-#### **YOLO v2**
+### **YOLO v2**
 
 [YOLOv2 & YOLO9000 解析参考](https://zhuanlan.zhihu.com/p/25052190)
 
@@ -35,7 +35,7 @@
        Using this joint training, YOLO9000 learns to find objects in images using the detection data in COCO and it learns to classify a wide variety of these objects using data from ImageNet.
 
 
-#### **YOLO v3**
+### **YOLO v3**
 
 [YOLO v3图解](https://zhuanlan.zhihu.com/p/345073218)
 
@@ -49,14 +49,14 @@
     5）使用交叉熵损失计算类别概率，置信度（框内有物体的概率）采用对数求和的损失
     
     
-#### **YOLO v4**
+### **YOLO v4**
 
 ![image](https://user-images.githubusercontent.com/67272893/142413859-71998620-697a-4747-885d-dfd8e1d0d3f5.png)
 
-##### Introduction
+#### Introduction
     1）WRC(加权残差连接)：缓解梯度消失，稳定模型训练，加快模型收敛
 
-##### Related work
+#### Related work
     detector = backbone + Neck + head
     backbone: 在Imagenet上预训练
         GPU: VGG,Resnet,ResnetXt,DenseNet
