@@ -57,6 +57,7 @@
     1）WRC(加权残差连接)：缓解梯度消失，稳定模型训练，加快模型收敛
 
 #### Related work
+##### Object detection models
 > detector = backbone + Neck + head
 
 > backbone: 在Imagenet上预训练
@@ -71,5 +72,12 @@
 
     Path-aggregation blocks: FPN,PAN,BiFPN,NAS-FPN
     Additional blocks: SPP,ASPP,RFB,SAM
-        
+    
+##### Bag of freebies
+ 
+> data augmentation
+
+    1) 光学变换；调整亮度，对比度，噪声等
+    2）几何变换：随机尺寸变换，剪切，翻转，旋转等
+    3）在原图或特征图上随即擦除，不同图像局部/全局混合（标签随之变化），风格迁移
        
