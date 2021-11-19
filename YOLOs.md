@@ -55,6 +55,7 @@
 
 
 ### Object detection models
+> 一般目标检测网络结构
 
 ***Detector = Backbone + Neck + Head***
 
