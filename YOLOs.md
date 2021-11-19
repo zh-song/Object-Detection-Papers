@@ -57,7 +57,7 @@
 ### Object detection models
 > 一般目标检测网络结构
 
-:+1: Detector = Backbone + Neck + Head
+- Detector = Backbone + Neck + Head
 
 > Backbone: 在Imagenet上预训练
 
