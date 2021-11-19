@@ -57,11 +57,11 @@
 #### Object detection models
 > detector = backbone + Neck + head
 
-> backbone: 在Imagenet上预训练
+> Backbone: 在Imagenet上预训练
 
     GPU: VGG,Resnet,ResnetXt,DenseNet
     CPU: SqueezeNet,MobileNet,ShuffleNet
-> head: 预测目标类别和bbox位置
+> Head: 预测目标类别和bbox位置
 
     two-stage: fast RCNN,faster RCNN,R-FCN,Libra RCNN,RepPoints(anchor-free)
     one-stage: YOLO,SSD,RetinaNet,CenterNet(anchor-free),CornerNet(anchor-free),FCOS(anchor-free)
@@ -71,8 +71,8 @@
     Additional blocks: SPP,ASPP,RFB,SAM
     
 #### Bag of freebies
- 
-##### Data augmentation
+
+> Data augmentation: 
 
     1) 光学变换；调整亮度，对比度，噪声等
     2）几何变换：随机尺寸变换，剪切，翻转，旋转等
