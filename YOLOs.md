@@ -53,11 +53,8 @@
 
 ![image](https://user-images.githubusercontent.com/67272893/142413859-71998620-697a-4747-885d-dfd8e1d0d3f5.png)
 
-#### Introduction
-    1）WRC(加权残差连接)：缓解梯度消失，稳定模型训练，加快模型收敛
 
-#### Related work
-##### Object detection models
+#### Object detection models
 > detector = backbone + Neck + head
 
 > backbone: 在Imagenet上预训练
@@ -73,9 +70,9 @@
     Path-aggregation blocks: FPN,PAN,BiFPN,NAS-FPN
     Additional blocks: SPP,ASPP,RFB,SAM
     
-##### Bag of freebies
+#### Bag of freebies
  
-###### Data augmentation
+##### Data augmentation
 
     1) 光学变换；调整亮度，对比度，噪声等
     2）几何变换：随机尺寸变换，剪切，翻转，旋转等
