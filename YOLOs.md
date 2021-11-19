@@ -55,7 +55,8 @@
 
 
 #### Object detection models
-× detector = backbone + Neck + head
+
+***Detector = Backbone + Neck + Head***
 
 > Backbone: 在Imagenet上预训练
 
