@@ -82,3 +82,19 @@
     2）几何变换：随机尺寸变换，剪切，翻转，旋转等
     3）在原图或特征图上随即擦除，不同图像局部/全局混合（标签随之变化），风格迁移
        
+> Semantic distribution bias：不同类别，样本数量不均衡
+
+    two-stage detector: hard negative example mining, online hard example mining
+    one-stage detector: focal loss
+    
+> One hot hard label: 无法表达不同类别之间的关联
+
+    soft label（或者采用知识蒸馏细分标签）
+    
+> BBox 回归的目标函数
+
+    利用MSE估计BBox的坐标点offset以及长宽offset
+    IoU loss：尺度不变，L1和L2损失不具有尺度不变性
+    GIou loss: include shape and orientation
+    DIoU loss: 考虑目标中心距离
+    CIoU loss: 考虑覆盖区域，中心点距离，长宽比
