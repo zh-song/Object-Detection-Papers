@@ -94,7 +94,7 @@
 > BBox 回归的目标函数
 
     利用MSE估计BBox的坐标点offset以及长宽offset
-    IoU loss：尺度不变，L1和L2损失不具有尺度不变性
+    IoU loss：尺度不变性，L1和L2损失不具有尺度不变性
     GIou loss: include shape and orientation
-    DIoU loss: 考虑目标中心距离
+    DIoU loss: 考虑目标与anchor之间中心点距离
     CIoU loss: 考虑覆盖区域，中心点距离，长宽比
