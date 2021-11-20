@@ -1,6 +1,6 @@
 > 指定GPU运行程序
     
-    CUDA_VISIBLE_DEVICES=0 nohup python detect.py >nohup1.out 2>&1 &
+    CUDA_VISIBLE_DEVICES=0 nohup python detect.py >cmdout.out 2>&1 &
 
 > 切换端口
 
