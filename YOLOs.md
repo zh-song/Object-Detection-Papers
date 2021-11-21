@@ -48,6 +48,11 @@
     4）预测框与目标一一对应，但使用多个独立sigmoid代替softmax，使得1个anchor可实现多标签预测（类别解耦），比如同时得到“女人”和“人”2个标签
     5）使用交叉熵损失计算类别概率，置信度（框内有物体的概率）采用对数求和的损失
     
+ ### code note
+ 
+    m = eval(m) if isinstance(m, str) else m  # eval strings
+    
+[eval(m)将字符串变为所import的类](https://blog.csdn.net/alittlebai1/article/details/118442444)
     
 ## **YOLO v4**
 
