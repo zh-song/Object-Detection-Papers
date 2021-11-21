@@ -99,6 +99,6 @@
     DIoU loss: 考虑目标与anchor之间中心点距离
     CIoU loss: 考虑覆盖区域，中心点距离，长宽比
     
-### Bag of specials: plugin modules and post-processing method
+### Bag of specials: plugin modules & post-processing methods
 
 
