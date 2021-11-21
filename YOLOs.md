@@ -74,7 +74,7 @@
     Path-aggregation blocks: FPN,PAN,BiFPN,NAS-FPN
     Additional blocks: SPP,ASPP,RFB,SAM
     
-### Bag of freebies
+### Bag of freebies: training strategy
 
 > Data augmentation：增加输入多样性，使网络更鲁棒
 
@@ -98,3 +98,7 @@
     GIou loss: include shape and orientation
     DIoU loss: 考虑目标与anchor之间中心点距离
     CIoU loss: 考虑覆盖区域，中心点距离，长宽比
+    
+### Bag of specials: plugin modules and post-processing method
+
+
