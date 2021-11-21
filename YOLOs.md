@@ -99,6 +99,15 @@
     DIoU loss: 考虑目标与anchor之间中心点距离
     CIoU loss: 考虑覆盖区域，中心点距离，长宽比
     
-### Bag of specials: plugin modules & post-processing methods
+### Bag of specials
+
+> plugin modules
+
+    ASSP: 在SSP基础上，最大池化改用空洞卷积，采用若干个卷积核尺寸为3×3，步长为1，dilated ratio(扩张率)为k的空洞卷积
+    RFB: dilated convolutions of kk kernel, dilated ratio equals to k, and stride equals to 1
+
+> post-processing methods
+
+
 
 
