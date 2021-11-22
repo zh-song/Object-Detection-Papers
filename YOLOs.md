@@ -51,9 +51,13 @@
     
  ### code note
  
-    m = eval(m) if isinstance(m, str) else m  # eval strings
+    class Model: m = eval(m) if isinstance(m, str) else m  # eval strings
     
 [eval(m)将字符串变为所import的类](https://blog.csdn.net/alittlebai1/article/details/118442444)
+
+    class Detect: def _make_grid(self, nx=20, ny=20, i=0)
+    
+[构建网格全过程讲解](https://www.cnblogs.com/yanghailin/p/15338637.html)
     
 ## **YOLO v4**
 
