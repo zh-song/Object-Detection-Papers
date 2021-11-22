@@ -113,10 +113,16 @@
 
 > plugin modules
 
-    ASSP: 在SSP基础上，最大池化改用空洞卷积，采用若干个卷积核尺寸为3×3，步长为1，dilated ratio(扩张率)为k的空洞卷积
-    RFB: dilated convolutions of k×k kernel, dilated ratio equals to k, and stride equals to 1
+    enhance receptive field:    
+        ASSP: 在SSP基础上，最大池化改用空洞卷积，采用若干个卷积核尺寸为3×3，步长为1，dilated ratio(扩张率)为k的空洞卷积
+        RFB: dilated convolutions of k×k kernel, dilated ratio equals to k, and stride equals to 1
+    attention: SE(channel-wise attention), SAM(point-wise attention)
+    feature integration: skip connection, hyper-column, e.g. SFAM(通道加权)，ASFF(点加权)，BiFPN(不同尺度加权)
+    activation function: 解决梯度消失：LReLU, PReLU, ReLU6, Scaled Exponential Linear Unit (SELU), Swish, hard-Swish, and Mish, etc.
 
 > post-processing methods
+
+    NMS，DIoU 
 
 
 
