@@ -124,6 +124,12 @@
 
     NMS，DIoU 
 
+### Method
+
+> architecture selection
+
+    the input network resolution, the convolutional layer number, the parameter number, and the number of layer outputs
+    increasing the receptive field and parameter aggregation
 
 
 
