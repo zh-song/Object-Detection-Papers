@@ -131,5 +131,11 @@
     the input network resolution, the convolutional layer number, the parameter number, and the number of layer outputs
     increasing the receptive field and parameter aggregation
 
+> improvements
 
+    数据增强：Mosaic(4张图mix),SAT(生成虚假图片对抗训练)
+    超参数：利用遗传算法选择超参数
+    其他：SAM(注意力机制中score生成方式稍作改变)，PAN(自下向上过程中连接方式由+改为*)，CmBN(均值和方差每个batch内阶梯累计计算，其他与BN相同)
+    
+    
 
