@@ -1,3 +1,3 @@
 ## **CenterNet**
 
->  a triplet of keypoints; cascade corner pooling and center pooling
+>  Key words: a triplet of keypoints; cascade corner pooling and center pooling
