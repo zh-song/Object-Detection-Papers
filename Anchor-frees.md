@@ -22,7 +22,7 @@
 ![image](https://user-images.githubusercontent.com/67272893/147030965-e4e376d3-1134-44ce-a320-0b7f86ba7d7e.png)
 
 
-## **CenterNet**
+## **CenterNet：Keypoint Triplets**
 
 >  Key words: a triplet of keypoints; cascade corner pooling and center pooling
 
