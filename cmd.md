@@ -9,3 +9,7 @@
 > 查看GPU使用情况
 
     nvidia-smi
+
+> ptvsd
+
+    python -m ptvsd --host 222.131.60.5 --port 205 --wait test_ptvsd.py
