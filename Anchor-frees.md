@@ -26,7 +26,16 @@
 
 >  Key words: a triplet of keypoints; cascade corner pooling and center pooling
 
-      Center pooling:
-      Cascade corner pooling:从角点沿着边界找最大值，
-      
+    1. 选择top-k bbox以及中心点，映射回原图
+    2. 查看中心点是否在bbox的中心方格内，并查看中心点与bbox标签是否一致
+
 ![image](https://user-images.githubusercontent.com/67272893/147032059-e2a251f2-5645-4d2c-ac31-2661d5370df1.png)
+
+> Center pooling: 分别找到在水平和竖直方向的最大值，将他们综合得到中心点
+
+![image](https://user-images.githubusercontent.com/67272893/147051112-dad4328c-5d77-4526-8dc0-1fa40a06b274.png)
+
+> Cascade corner pooling: 从角点沿着边界找最大值，找到后，再向框内部寻找最大值，综合边缘与内部
+
+![image](https://user-images.githubusercontent.com/67272893/147051219-2ef1f71b-6e70-44fb-b222-c7d1d5b53880.png)
+
