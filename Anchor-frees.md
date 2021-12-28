@@ -46,3 +46,5 @@
     1.“anchor”只关于位置，不关于box overlap
     2.每个目标只有一个bbox，不需要NMS
     3.lager output resolution(output stride small)
+    
+> Focal loss
