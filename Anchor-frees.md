@@ -47,4 +47,4 @@
     2.每个目标只有一个bbox，不需要NMS
     3.lager output resolution(output stride small)
     
-> Focal loss
+> Focal loss: 分类问题中类别不平衡,分类难度差异
