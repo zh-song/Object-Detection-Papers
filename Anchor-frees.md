@@ -39,3 +39,10 @@
 
 ![image](https://user-images.githubusercontent.com/67272893/147051219-2ef1f71b-6e70-44fb-b222-c7d1d5b53880.png)
 
+## **Objects as Points**
+
+与 anchor-based one stage 相比，有以下不同
+
+    1.“anchor”只关于位置，不关于box overlap
+    2.每个目标只有一个bbox，不需要NMS
+    3.lager output resolution(output stride small)
