@@ -41,7 +41,7 @@
 
 ## **Objects as Points**
 
-[centernet博客参考]https://zhuanlan.zhihu.com/p/66048276
+[centernet博客参考] [https://zhuanlan.zhihu.com/p/66048276]
 
     与 anchor-based one stage 相比，有以下不同：
     1.“anchor”只关于位置，不关于box overlap
