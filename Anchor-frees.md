@@ -41,10 +41,22 @@
 
 ## **Objects as Points**
 
-与 anchor-based one stage 相比，有以下不同
+[centernet博客参考]https://zhuanlan.zhihu.com/p/66048276
 
+    与 anchor-based one stage 相比，有以下不同：
     1.“anchor”只关于位置，不关于box overlap
     2.每个目标只有一个bbox，不需要NMS
     3.lager output resolution(output stride small)
     
-> Focal loss: 解决分类问题中类别不平衡，分类难度差异大
+    网络：
+    Hourglass network(like conrner net)；
+    Resnet；
+    DLA；
+    预测流程：
+    网络输出接三个head，分别输出 类别预测即heatmap，坐标offset，长宽，即下采样后的每个点对应输出C(calss num)+4(offset,w,h)个输出
+    其中采用maxpooling选取center point，用loss_off回归offset,用回归的offset矫正center point，再根据长宽绘制bbox
+    loss：
+    Focal loss: 解决分类问题中类别不平衡，分类难度差异大,难样本惩罚大即损失大
+    loss_off回归offset，loss_size回归bbox大小
+    
+    
