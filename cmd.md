@@ -13,3 +13,12 @@
 > ptvsd
 
     python -m ptvsd --host 222.131.60.5 --port 205 --wait test_ptvsd.py
+
+    
+>  新建会话
+
+    tmux new -s <session-name>
+    
+> tmux 接入会话
+
+    tmux attach -t <session-name>
