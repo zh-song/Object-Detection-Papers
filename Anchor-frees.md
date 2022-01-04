@@ -5,6 +5,10 @@
     两个不同特征图上不同方向进行maxpooling
     大小：C×H×W，C表示物体类别；HW上每个位置表示每个点是否为角点的概率
 
+![image](https://user-images.githubusercontent.com/67272893/148005099-f258f8b0-2efd-4099-8fee-4ee7f62d20ee.png)
+
+    maxpooling：找到走过的路中包含当前位置最大的值
+
 ![image](https://user-images.githubusercontent.com/67272893/147025619-c917e74e-e037-4eb5-be36-364eadf73e0f.png)
 
 > 预测输出
