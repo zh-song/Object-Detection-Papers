@@ -10,6 +10,10 @@
 
     nvidia-smi
 
+> 刷新GPU使用
+
+    watch --color gpustat --color
+
 > ptvsd
 
     python -m ptvsd --host 222.131.60.5 --port 205 --wait test_ptvsd.py
@@ -22,3 +26,4 @@
 > tmux 接入会话
 
     tmux attach -t <session-name>
+
