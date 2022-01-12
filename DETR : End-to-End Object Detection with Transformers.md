@@ -79,7 +79,7 @@ N >> the number of objects in the image, y [class, x_c, y_c, w, h] : a set of si
 
 loss: probaility of class loss + predicted box loss
 
-![match loss](https://img-blog.csdnimg.cn/img_convert/9586fafaa8ccbd9aec06ca8f4c1ed4ee.png)
+![图片](https://user-images.githubusercontent.com/67272893/149099475-2a0f1cda-e8be-48f7-af37-9171de7205d3.png)
 
 class imbalance: 
 1. DETR: when ci is empty, down weight the log()
