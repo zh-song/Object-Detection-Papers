@@ -13,3 +13,7 @@ Notes with object detection papers.
 10. Centernet: Keypoint triplets for object detection
 11. Objects as points
 12. End-to-End Object Detection with Transformers
+
+
+## Application for mobile devices
+1. GhostNet: More Features from Cheap Operations
