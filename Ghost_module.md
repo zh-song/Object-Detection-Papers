@@ -52,3 +52,7 @@ Pointwise Convolution：实际为1×1卷积，在DWC中它起两方面的作用�
 > [Ghost笔记](https://cloud.tencent.com/developer/article/1745462)
 
 > [深度可分离卷积](https://zhuanlan.zhihu.com/p/166736637)
+
+> [部分代码](https://zhuanlan.zhihu.com/p/148856494)
+
+> [实验分享](https://zhuanlan.zhihu.com/p/115844245)
