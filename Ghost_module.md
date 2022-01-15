@@ -23,10 +23,10 @@ For mobile devices : network pruning(网络剪枝), low-bit quantization(低位�
 
 ![979id4hyco](https://user-images.githubusercontent.com/67272893/149614718-5ada63dd-d526-4c70-9eb7-3a9c1e2f0301.png)
 
-
 <b>深度可分离卷积（DWC）</b>：
 
 ![1489774-20200823105310479-506198517](https://user-images.githubusercontent.com/67272893/149614676-0142691b-5df5-4a56-b29d-1bf4388bad8e.png)
+
 Depthwise Convolution：
 
 ![1489774-20200823105331585-1644804158](https://user-images.githubusercontent.com/67272893/149614703-779c1971-de96-4e8b-bed1-fb0ea1e1a31a.png)
@@ -34,7 +34,7 @@ Depthwise Convolution：
 Pointwise Convolution：实际为1×1卷积，在DWC中它起两方面的作用。
 1. 让DWC能够自由改变输出通道的数量；
 2. 对Depthwise Convolution输出的feature map进行通道融合
-3. 
+
 ![1489774-20200823105348729-1761867796](https://user-images.githubusercontent.com/67272893/149614707-64bae681-2eea-4996-ac38-c17c1448d254.png)
 
 <b>Ghost Bottlenecks</b>:
