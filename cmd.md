@@ -27,3 +27,6 @@
 
     tmux attach -t <session-name>
 
+> 激活conda虚拟环境
+
+    source activate objdet
