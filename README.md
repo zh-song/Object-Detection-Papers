@@ -17,3 +17,10 @@ Notes with object detection papers.
 
 ## Application for mobile devices
 1. GhostNet: More Features from Cheap Operations
+
+
+
+
+> SEARCH
+
+    2D Object Detection OR Rotation Object Detection OR Keypoint Detection OR Segmentation OR Estimation OR Detection
