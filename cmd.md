@@ -30,3 +30,8 @@
 > 激活conda虚拟环境
 
     source activate objdet
+
+
+> 假设已有环境名为A，需要生成的环境名为B：
+
+    conda create -n B --clone A
