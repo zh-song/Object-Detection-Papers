@@ -35,3 +35,7 @@
 > 假设已有环境名为A，需要生成的环境名为B：
 
     conda create -n B --clone A
+    
+> 在vscode中更改anaconda运行环境
+
+    快捷键ctrl+p，在弹出的框框中，输入 >select interpreter 来选择相应的Anaconda环境即可。
