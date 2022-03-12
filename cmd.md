@@ -12,7 +12,7 @@
 
 > 刷新GPU使用
 
-    watch --color gpustat --color
+    watch --color gpustat --color   # ctrl+z 退出
 
 > ptvsd
 
