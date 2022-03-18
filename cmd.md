@@ -39,3 +39,7 @@
 > 在vscode中更改anaconda运行环境
 
     快捷键ctrl+p，在弹出的框框中，输入 >select interpreter 来选择相应的Anaconda环境即可。
+
+> mmdetection single GPU test
+
+    python tools/test.py configs/faster_rcnn_r50_fpn_1x.py work_dirs/faster_rcnn_r50_fpn_1x/epoch1.pth --eval bbox --show --options "classwise=True"
