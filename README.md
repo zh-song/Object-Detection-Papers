@@ -21,6 +21,9 @@ Notes with object detection papers.
 
 
 
+# Summary:
+![two stage](https://pic4.zhimg.com/v2-a4ee8c6e646a519791cac12641a15fa3_r.jpg)
+
 > SEARCH
 
     2D Object Detection OR Rotation Object Detection OR Keypoint Detection OR Segmentation OR Estimation OR Detection
