@@ -9,4 +9,4 @@
 
 
 ## YOLO-Pose
-![image](https://user-images.githubusercontent.com/67272893/197498286-856ebc2a-a1b6-43dd-8510-622facd2d221.png)
+![image](https://user-images.githubusercontent.com/67272893/197498654-f5b66058-0f28-4339-8cee-e9eda2f27773.png)
