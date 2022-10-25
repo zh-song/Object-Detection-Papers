@@ -26,3 +26,4 @@ The loss of $conf$, visibility flags for keypoints are used as ground truth.
 ![image](https://user-images.githubusercontent.com/67272893/197521866-e7d16a62-2660-404e-8b65-25e5e742e333.png)
 
 ![image](https://user-images.githubusercontent.com/67272893/197498654-f5b66058-0f28-4339-8cee-e9eda2f27773.png)
+## DirectPose: Direct End-to-End Multi-Person Pose Estimation
