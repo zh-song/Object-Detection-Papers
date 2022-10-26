@@ -15,15 +15,36 @@ Each keypoint includes $(x,y,conf)$.
 
 Ground truth of keypoint conf: If a keypoint is either visible or occluded, then the ground truth confidence is set to 1 else if it is outside the field of view, confidence is set to zero.
 
-![MommyTalk1666611014838](https://user-images.githubusercontent.com/67272893/197516900-cd238e15-b471-4f33-ac63-1bbe5fb82586.jpg)
+![Screenshot from 2022-10-26 16-41-04](https://user-images.githubusercontent.com/67272893/197978288-02aeac17-d291-422a-8fc5-e031cd1b63ba.png)
+
 
 The loss of keypoint consists of two parts: the loss of $(x,y)$ and loss of $conf$.
 
 The loss of $(x,y)$. Hence, if a ground truth bounding box is matched with $k_{th}$ anchor at location $(i,j)$ and scale $s$, we predict the keypoints with respect to the center of the anchor. 
-![image](https://user-images.githubusercontent.com/67272893/197521672-c631778a-b07c-40f1-9286-6ac1907a9f11.png)
 
 The loss of $conf$, visibility flags for keypoints are used as ground truth.
-![image](https://user-images.githubusercontent.com/67272893/197521866-e7d16a62-2660-404e-8b65-25e5e742e333.png)
+![Screenshot from 2022-10-26 16-41-14](https://user-images.githubusercontent.com/67272893/197978359-e8c73af9-95e4-4f9d-b710-2ef449e7a036.png)
+![Screenshot from 2022-10-26 16-42-59](https://user-images.githubusercontent.com/67272893/197978695-cceee35a-c65a-4c16-9379-c6ef826513dd.png)
 
-![image](https://user-images.githubusercontent.com/67272893/197498654-f5b66058-0f28-4339-8cee-e9eda2f27773.png)
+
 ## DirectPose: Direct End-to-End Multi-Person Pose Estimation
+The regression-based method have the potential to detect very dense keypoints.
+
+The heatmap-based task is only used as an auxiliary loss during training.
+![Screenshot from 2022-10-26 16-39-38](https://user-images.githubusercontent.com/67272893/197977999-b29e71e6-800c-49c6-98e3-9943052be71b.png)
+**KPAlign**
+
+Locator predict the rough locations of the keypoints from high-level features with a larger receptive field.
+
+Sampler samples feature acorrding to the above offsets from high-resolution low-level features with a smaller receptive field.
+
+Predictor make the final keypoint predictions.
+![Screenshot from 2022-10-26 16-57-45](https://user-images.githubusercontent.com/67272893/197982412-af2fc4c1-495b-47c3-9534-1fc0228f52d0.png)
+**Heatmap Prediction**
+
+Previous heatmap-based keypoint detection methods [1] generate unnormalized Gaussian distribution centered at each keypoint. we perform a per-pixel classification here for simplicity. Note that we make use of multiple binary classifiers (i.e., one-versus-all) and therefore the number of output channels is K instead of K + 1.
+
+**GT of heatmap: **
+
+On the heatmaps, if a location is the nearest location to a keypoint with type t, the classification label for the location is set as t, where t ∈ {1, 2, ..., K}. Otherwise, the label is 0.
+
