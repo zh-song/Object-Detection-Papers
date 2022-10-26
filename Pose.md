@@ -44,7 +44,7 @@ Predictor make the final keypoint predictions.
 
 Previous heatmap-based keypoint detection methods [1] generate unnormalized Gaussian distribution centered at each keypoint. we perform a per-pixel classification here for simplicity. Note that we make use of multiple binary classifiers (i.e., one-versus-all) and therefore the number of output channels is K instead of K + 1.
 
-**GT of heatmap: **
+**GT of heatmap**
 
 On the heatmaps, if a location is the nearest location to a keypoint with type t, the classification label for the location is set as t, where t ∈ {1, 2, ..., K}. Otherwise, the label is 0.
 
