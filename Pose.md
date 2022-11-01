@@ -46,7 +46,9 @@ Previous heatmap-based keypoint detection methods [1] generate unnormalized Gaus
 
 **GT of heatmap**
 
-On the heatmaps, if a location is the nearest location to a keypoint with type t, the classification label for the location is set as t, where t ∈ {1, 2, ..., K}. Otherwise, the label is 0.
+On the heatmaps, if a location is the nearest location to a keypoint with type t, the classification label for the location is set as t, 
+
+where t ∈ {1, 2, ..., K}. Otherwise, the label is 0.
 
 ## Single-Stage Multi-Person Pose Machines
 **Structured pose representation**
