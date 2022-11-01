@@ -52,7 +52,7 @@ On the heatmaps, if a location is the nearest location to a keypoint with type t
 **Structured pose representation**
 1. predict displacements between body joints and the root joint.
 2. we exploit the person centroid as the root joint of the person instance.
-3. 
+
 **Hierarchical SPR**
 
 we divide the root joint and body joints into four hierarchies based on articulated kinematics [20] by their degrees of freedom and extent of deformation.
