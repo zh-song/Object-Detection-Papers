@@ -48,3 +48,16 @@ Previous heatmap-based keypoint detection methods [1] generate unnormalized Gaus
 
 On the heatmaps, if a location is the nearest location to a keypoint with type t, the classification label for the location is set as t, where t ∈ {1, 2, ..., K}. Otherwise, the label is 0.
 
+## Single-Stage Multi-Person Pose Machines
+**Structured pose representation**
+1. predict displacements between body joints and the root joint.
+2. we exploit the person centroid as the root joint of the person instance.
+3. 
+**Hierarchical SPR**
+we divide the root joint and body joints into four hierarchies based on articulated kinematics [20] by their degrees of freedom and extent of deformation.
+
+**GT of root joint**
+高斯heatmap
+
+**GT of displacements**
+Root Joint 為中心, τ為半徑範圍內的點到 body joints 的位移向量
