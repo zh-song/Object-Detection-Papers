@@ -31,7 +31,6 @@ The loss of $conf$, visibility flags for keypoints are used as ground truth.
 
 ![Screenshot from 2022-10-26 16-42-59](https://user-images.githubusercontent.com/67272893/197978695-cceee35a-c65a-4c16-9379-c6ef826513dd.png)
 
-
 ## DirectPose: Direct End-to-End Multi-Person Pose Estimation
 The regression-based method have the potential to detect very dense keypoints.
 
