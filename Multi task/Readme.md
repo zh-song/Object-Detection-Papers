@@ -5,5 +5,5 @@
 
 > Reference
 
-[1]. [姿态估计/关键点检测](https://github.com/zh-song/Object-Detection-Papers/blob/Docments/Multi%20task/Single-Stage%20Multi-Person%20Pose%20Machines.md#single-stage-multi-person-pose-machines)  
+[1]. [姿态估计/关键点检测](https://github.com/zh-song/Object-Detection-Papers/blob/Docments/Multi%20task/Pose-OD.md#multi-task)  
 [2]. [自动驾驶场景中多任务案例](https://github.com/zh-song/Object-Detection-Papers/blob/Docments/Multi%20task/OmniDet.md#omnidet-surround-view-cameras-based-multi-task-visual-perception-network-for-autonomous-driving)
