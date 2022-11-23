@@ -15,6 +15,9 @@
 Multi-task：
 > The main advantage of a multitask network is its high computational efficiency, which is most suitable for a low cost embedded device.
 > Reusing the encoder also provides regularization across different tasks.
+
+![image](https://user-images.githubusercontent.com/67272893/203465667-4ea8da0a-a60c-48bc-aed6-d74161c7323a.png)
+
 1. object detection（以几何线索辅助实现，包括运动分割，深度估计）
 ```
 decoder: The object detection decoder is built using a grid level softmax layer
