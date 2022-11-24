@@ -1,9 +1,7 @@
 # OmniDet: Surround View Cameras based Multi-task Visual Perception Network for Autonomous Driving
 自动驾驶中鱼眼相机与常规相机相辅相成，共同完成信息融合，其中鱼眼相机具有径向失真，视野减小和周围特征失真。
 
-
-
-
+> 平衡不同任务之间损失 ——> [Joint optimization](https://github.com/zh-song/Object-Detection-Papers/blob/Docments/Multi%20task/Joint%20optimization.md)
 
 
 
