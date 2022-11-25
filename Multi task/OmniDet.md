@@ -14,6 +14,7 @@
 4. 共享encoder和协同decoder
 
 
+![Screenshot from 2022-11-25 15-24-19](https://user-images.githubusercontent.com/67272893/203924239-c36d2ef2-e29b-4170-829e-4798ae9c3287.png)
 
 
 
