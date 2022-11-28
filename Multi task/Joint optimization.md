@@ -1,4 +1,9 @@
-- [ ] Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics
+### Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics
+**homoscedastic uncertainty**
+多任务：逐像素深度估计，语义分割以及实例分割
+
+
+
 - [ ] GradNorm: Gradient Normalization for Adaptive Loss Balancing in Deep Multitask Networks
 - [ ] Dynamic Task Prioritization for Multitask Learning
 - [ ] End-to-End Multi-Task Learning with Attention
