@@ -1,5 +1,5 @@
 ### Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics
-**homoscedastic uncertainty**
+**homoscedastic uncertainty**  
 多任务：逐像素深度估计，语义分割以及实例分割
 
 
