@@ -1,8 +1,8 @@
 ### Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics
 **homoscedastic uncertainty**  
 多任务包括回归和分类任务  
-回归任务：逐像素深度估计（热力图回归）每个像素回归距离  采用**高斯似然估计**
-分类任务：语义分割以及实例分割 （每个像素进行多分类） 采用**对数似然估计**
+回归任务：逐像素深度估计（热力图回归）每个像素回归距离  采用**高斯似然估计**  
+分类任务：语义分割以及实例分割 （每个像素进行多分类） 采用**对数似然估计**  
 
 
 - [ ] GradNorm: Gradient Normalization for Adaptive Loss Balancing in Deep Multitask Networks
